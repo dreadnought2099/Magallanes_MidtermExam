@@ -71,7 +71,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          added[index] ? 'Added' : songs[index],
+                          added[index]
+                              ? 'Added to your awesome playlists'
+                              : songs[index],
                           style: TextStyle(
                             color: added[index] ? Colors.white : Colors.black,
                           ),
